@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# 🔑 Secrets & Credentials (CRITICAL!)
+.env
+.streamlit/secrets.toml
+**/hongjun's file/.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+
+# Large Binary Files / Weights (Over 50MB)
+*.pkl
+*.hdf5
+*.pth
+*.zip
+*.tar
+*.gz
+*.pdf
+*.pptx
+*.docx

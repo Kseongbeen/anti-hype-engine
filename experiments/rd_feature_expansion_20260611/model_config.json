@@ -1,0 +1,50 @@
+{
+  "model_config": {
+    "n_estimators": 66,
+    "max_depth": 6,
+    "min_samples_split": 7,
+    "min_samples_leaf": 11,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "max_samples": 0.6120142352927195,
+    "ccp_alpha": 0.01400839082255636,
+    "criterion": "entropy",
+    "random_state": 42
+  },
+  "base_experiment_dir": "experiments/feature_weight_repair_20260611_145929",
+  "candidate_rd_features": [
+    "feat_rd_absence_3y",
+    "feat_rd_to_assets_rank_gap",
+    "feat_rd_spending_decline_2y",
+    "feat_rd_sales_growth_mismatch",
+    "feat_rd_pipeline_disclosure_absence",
+    "feat_rd_milestone_correction_ratio"
+  ],
+  "selected_rd_features": [
+    "feat_rd_absence_3y",
+    "feat_rd_to_assets_rank_gap",
+    "feat_rd_sales_growth_mismatch",
+    "feat_rd_pipeline_disclosure_absence",
+    "feat_rd_milestone_correction_ratio"
+  ],
+  "feature_descriptions": {
+    "feat_rd_absence_3y": "최근 3개년 R&D 투자 공백 위험",
+    "feat_rd_to_assets_rank_gap": "자산 대비 R&D 투자 부족 위험",
+    "feat_rd_spending_decline_2y": "최근 2개년 대비 R&D 투자 축소 위험",
+    "feat_rd_sales_growth_mismatch": "매출 성장 대비 R&D 성장 부진 위험",
+    "feat_rd_pipeline_disclosure_absence": "R&D 성과·파이프라인 공시 부재 위험",
+    "feat_rd_milestone_correction_ratio": "R&D 성과 공시 정정 비율 위험"
+  },
+  "baseline_metrics": {
+    "roc_auc_mean": 0.7463382594417076,
+    "accuracy_mean": 0.6853065539112051,
+    "f1_mean": 0.3394771241830065,
+    "n_splits": 5
+  },
+  "expanded_metrics": {
+    "roc_auc_mean": 0.7498193760262726,
+    "accuracy_mean": 0.662262156448203,
+    "f1_mean": 0.28431372549019607,
+    "n_splits": 5
+  }
+}

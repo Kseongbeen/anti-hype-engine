@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+yfinance
+transformers
+torch
+fpdf
+beautifulsoup4
+plotly
+requests
+openai

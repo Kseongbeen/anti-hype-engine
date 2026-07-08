@@ -1,0 +1,27 @@
+﻿feature,description,importance,importance_pct
+feat_hype_LOG_PSR,feat_hype_LOG_PSR,0.18515072822049963,18.515072822049962
+feat_hype_LOG_PBR,feat_hype_LOG_PBR,0.12256140439978863,12.256140439978862
+feat_fin_Total_Revenue,feat_fin_Total_Revenue,0.08464657139341308,8.464657139341309
+feat_fin_Total_Equity,feat_fin_Total_Equity,0.0723530293125277,7.23530293125277
+feat_fin_Total_Assets,feat_fin_Total_Assets,0.06032285947945888,6.032285947945888
+feat_hype_volatility,feat_hype_volatility,0.05414130461389765,5.414130461389765
+feat_fin_consecutive_op_loss_years,feat_fin_consecutive_op_loss_years,0.05035626335176836,5.035626335176836
+feat_hype_mdd,feat_hype_mdd,0.0474833642127174,4.74833642127174
+feat_fin_insider_holdings_pct,feat_fin_insider_holdings_pct,0.041673493611756006,4.1673493611756
+feat_rd_to_assets_rank_gap,자산 대비 R&D 투자 부족 위험,0.03981327962751567,3.981327962751567
+feat_fin_Paid_In_Capital_Increase,feat_fin_Paid_In_Capital_Increase,0.034353332947034396,3.4353332947034394
+feat_fin_Debt_Ratio_Pct,feat_fin_Debt_Ratio_Pct,0.02740859220094909,2.740859220094909
+feat_fin_has_dividend,feat_fin_has_dividend,0.02681812419897351,2.681812419897351
+feat_hype_high_gap,feat_hype_high_gap,0.025291792763563855,2.5291792763563854
+feat_hype_momentum,feat_hype_momentum,0.02447233062736093,2.447233062736093
+feat_rd_R&D_Ratio_Pct,feat_rd_R&D_Ratio_Pct,0.023086790278260376,2.3086790278260376
+feat_rd_sales_growth_mismatch,매출 성장 대비 R&D 성장 부진 위험,0.02028012129215787,2.028012129215787
+feat_fin_3개년_유상증자_누적횟수,feat_fin_3개년_유상증자_누적횟수,0.018880810555328937,1.8880810555328937
+feat_rd_years_after_listing,feat_rd_years_after_listing,0.017841038150931344,1.7841038150931343
+feat_hype_volume_surge,feat_hype_volume_surge,0.013334788958852376,1.3334788958852377
+feat_rd_pipeline_disclosure_absence,R&D 성과·파이프라인 공시 부재 위험,0.009729979803244299,0.9729979803244299
+feat_fin_Capital_Impairment_Ratio,feat_fin_Capital_Impairment_Ratio,0.0,0.0
+feat_fin_cb_bw_count,feat_fin_cb_bw_count,0.0,0.0
+feat_rd_is_tech_listing,feat_rd_is_tech_listing,0.0,0.0
+feat_rd_absence_3y,최근 3개년 R&D 투자 공백 위험,0.0,0.0
+feat_rd_milestone_correction_ratio,R&D 성과 공시 정정 비율 위험,0.0,0.0
